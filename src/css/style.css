@@ -1,0 +1,20 @@
+.nameEntryBoy {
+  display: table;
+  padding: 1px;
+  font-size: 20px;
+  background-color: aqua;
+  display: inline;
+}
+
+.nameEntryGirl {
+  display: table;
+  padding: 1px;
+  font-size: 20px;
+  background-color: palevioletred;
+  display: inline;
+}
+
+.list {
+  background-color: rgb(192, 192, 192);
+  display: inline;
+}

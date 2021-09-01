@@ -1,5 +1,5 @@
 body {
-  margin: 0
+  margin: 0;
 }
 header {
   background-color: olivedrab;
@@ -22,7 +22,7 @@ footer {
   border: none;
   background-color: aqua;
   padding: 1%;
-  margin-right: 1%
+  margin-right: 1%;
 }
 
 .nameEntryGirl {
@@ -30,16 +30,16 @@ footer {
   border: none;
   background-color: palevioletred;
   padding: 1%;
-  margin-right: 1%
+  margin-right: 1%;
 }
 
 .list {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
-    margin-left: 10%;
-    align-items: center;
-    justify-content: center;
-    border: 1px double grey;
-    background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  border: 1px double grey;
+  background-color: beige;
 }

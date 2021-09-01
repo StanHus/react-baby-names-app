@@ -9,15 +9,15 @@ interface NameI {
 export default function NameEntry(entry: NameI): JSX.Element {
   if (entry.sex === "f") {
     return (
-      <li className="nameEntryGirl" key={entry.id}>
+      <p className="nameEntryGirl" key={entry.id}>
         {entry.name}
-      </li>
+      </p>
     );
   } else {
     return (
-      <li className="nameEntryBoy" key={entry.id}>
+      <p className="nameEntryBoy" key={entry.id}>
         {entry.name}
-      </li>
+      </p>
     );
   }
 }

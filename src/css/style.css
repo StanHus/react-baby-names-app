@@ -1,20 +1,45 @@
+body {
+  margin: 0
+}
+header {
+  background-color: olivedrab;
+  padding: 0.5%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  background-color: olivedrab;
+  padding: 0.5%;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+}
+
 .nameEntryBoy {
-  display: table;
-  padding: 1px;
-  font-size: 20px;
+  border-radius: 3px;
+  border: none;
   background-color: aqua;
-  display: inline;
+  padding: 1%;
+  margin-right: 1%
 }
 
 .nameEntryGirl {
-  display: table;
-  padding: 1px;
-  font-size: 20px;
+  border-radius: 3px;
+  border: none;
   background-color: palevioletred;
-  display: inline;
+  padding: 1%;
+  margin-right: 1%
 }
 
 .list {
-  background-color: rgb(192, 192, 192);
-  display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+    border: 1px double grey;
+    background-color: beige;
 }
